@@ -139,7 +139,7 @@ document.getElementById("submitBtn").addEventListener("click", function () {
 
   var searchInput = document.getElementById("searchInput").value.toLowerCase()
 
-  minAPI = `http://www.omdbapi.com/?t=${searchInput}&apikey=3a692b48`
+  minAPI = `https://www.omdbapi.com/?t=${searchInput}&apikey=3a692b48`
 
   // Basic greier
   
