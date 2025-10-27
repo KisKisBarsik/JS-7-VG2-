@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Generele elementer for hele nettside */
+
+body {
+    background-image: url(https://wallpapers.com/images/featured/city-background-vk49vrjolueijq7a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Generele elementer for hele nettside */
+
+
+
+/* Generele elementer for Navigasjonsbar */
+
+header {
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+
+    padding: 25px 0px 25px 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Generele elementer for Navigasjonsbar */
+
+
+
+/* Logo greier */
+
+.logoDiv {
+    display: flex;
+}
+
+.logo {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: rgb(227, 1, 1);
+
+    margin: 0px 0px 0px 50px; 
+}
+
+.logoA {
+    text-decoration: none;
+}
+
+.restenAvLogo {
+    color: white;
+}
+
+/* Logo greier */
+
+
+
+/* Navbar greier */
+
+.navBar {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 120px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background-color: white;
+
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    color: rgb(31, 31, 31);
+
+    margin: 0px 20px 0px 20px;
+    padding: 15px 25px 15px 25px;
+}
+
+li a:hover {
+    background-color: rgb(173, 5, 5);
+    border: 2px solid rgb(173, 5, 5);
+    color: white;
+}
+
+.hjem {
+    background-color: rgb(173, 5, 5);
+    border: 2px solid rgb(173, 5, 5);
+    color: white;
+}
+
+/* Navbar greier */
+
+
+
+/* Søk bare greier */
+
+.søkBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+    border: 2px solid white;
+    border-radius: 35px;
+
+    margin: 0px 50px 0px 0px;
+}
+
+#searchInput {
+    width: 340px;
+    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0)); */
+    background-color: white;
+
+    font-size: 24px;
+    color: white;
+    color: rgb(31, 31, 31);
+
+    border: 0;
+    outline: 0;
+
+    margin: 0px 10px 0px 20px;
+}
+
+#searchInput::placeholder {
+    color: rgb(73, 73, 73);
+    /* color: rgb(235, 235, 235); */
+}
+
+#submitBtn {
+    background-color: white;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 35px;
+
+    padding: 8px 10px 8px 10px;
+    margin: 5px;
+}
+
+#submitBtn:hover {
+    background-color: rgb(173, 5, 5);
+    border: 2px solid rgb(173, 5, 5);
+
+    cursor: pointer;
+}
+
+.searchIcon {
+    width: 30px;
+}
+
+/* Søk bare greier */
+
+
+
+/* Generele elementer for hele nettside */
+
+.blur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1905px;
+    height: 1080px;
+
+    background: linear-gradient(45deg, rgba(31, 31, 31, 0.7));
+}
+
+/* Generele elementer for hele nettside */
+
+
+
+/* Hilse og tekst anbefalinger */
+
+.hilseTekstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(31, 31, 31);
+
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 10px;
+
+    padding: 30px 60px 30px 60px;
+    margin: 0px;
+}
+
+.hilse {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+    margin: 0px 0px 5px 0px;
+}
+
+.infoOmNettS {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+    margin: 0px 0px 5px 0px;
+}
+
+/* Hilse og tekst anbefalinger */
+
+
+
+/* Selve film anbefalinger */
+
+.filmAnbefalingerDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.filmN1, .filmN2, .filmN3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 420px;
+    height: 750px;
+    background-color: rgb(31, 31, 31);
+
+    border: 2px solid white;
+    border-radius: 25px;
+
+    margin: 90px 20px 20px 20px;
+}
+
+.filmSomVarSøkt {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+
+    width: 720px;
+    height: 540px;
+    background-color: rgb(31, 31, 31);
+
+    border: 2px solid white;
+    border-radius: 25px;
+
+    margin: 40px 20px 0px 20px;
+}
+
+#banner1, #banner2, #banner3 {
+    width: 300px;
+    height: 420px;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 30px;
+
+    margin: 50px 0px 0px 0px;
+}
+
+#banner4 {
+    width: 300px;
+    height: 420px;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 30px;
+
+    margin: 0px 10px 0px 40px;
+}
+
+.spesielTekstDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.spesielTekstDiv2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.APIInfo1, .APIInfo2, .APIInfo3, .APIInfo4, .APIInfo5, .APIInfo6, .APIInfo7, .APIInfo8, .APIInfo9, .APIInfo10, .APIInfo11, .APIInfo12, .APIInfo13, .APIInfo14, .APIInfo15, .APIInfo16, .APIInfo17, .APIInfo18, .APIInfo19, .APIInfo20 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+    margin: 5px 25px 5px 25px;
+}
+
+.APIInfo16 {
+    margin: 5px 5px 5px 25px;
+}
+
+.APIInfo17 {
+    margin: 5px 5px 5px 5px;
+}
+
+/* Selve film anbefalinger */
